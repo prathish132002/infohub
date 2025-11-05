@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import Weather from "./components/Weather";
-import Converter from "./components/Converter";
-import Quotes from "./components/Quotes";
+import Weather   from "./components/Weather.jsx";
+import Converter from "./components/Converter.jsx";
+import Quotes    from "./components/Quotes.jsx";
+
 
 export default function App() {
   const [tab, setTab] = useState("weather");
